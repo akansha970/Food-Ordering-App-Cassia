@@ -14,9 +14,6 @@ void main() {
         ChangeNotifierProvider(
           create: (_) => AuthNotifier(),
         ),
-        // ChangeNotifierProvider(
-        //   create: (_) => FoodNotifier(),
-        // ),
       ],
       child: MyApp(),
     )
